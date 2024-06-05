@@ -1,8 +1,9 @@
-<!DOCTYPE html>
+<!DOCTYPE html5>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css"> <!-- link to external stylesheet -->
     <title>AriArt Supplies: Home Page</title>
 </head>
     <body>
@@ -14,11 +15,11 @@
         </header>
 
         <!-- navigation line -->
-        <nav align="center">
-            <a href="index.html">Home</a>&emsp; <!-- link to home, followed by a tab character -->
-            <a href="about.html">About AriArt</a>&emsp; <!-- link to about, followed by a tab character -->
-            <a href="locations.html">Locations</a>&emsp; <!-- link to locations, followed by a tab character -->
-            <a href="contact.html">Contact Us</a> <!-- link to contact -->
+        <nav class="navigation" id="main-nav">
+            <a class="active" href="index.html">HOME</a> <!-- link to home, followed by a tab character -->
+            <a href="about.html">ABOUT ARIART</a> <!-- link to about, followed by a tab character -->
+            <a href="locations.html">LOCATIONS</a> <!-- link to locations, followed by a tab character -->
+            <a href="contact.html">CONTACT</a> <!-- link to contact -->
         </nav>
 
         <br><br> <!-- line breaks -->
@@ -41,7 +42,7 @@
         <!-- table of products -->
         <section>
             <h2>Our Products</h2>
-            <table>
+            <table class="all-tables" id="products">
                 <!-- table headers -->
                 <tr>
                     <th>Product</th>
@@ -50,21 +51,21 @@
                 </tr>
 
                 <!-- row -->
-                <tr>
+                <tr id="product-row">
                     <td>Paint Set</td>
                     <td>$50.00</td>
                     <td>2</td>
                 </tr>
 
                 <!-- row -->
-                <tr>
+                <tr id="product-row">
                     <td>Pencil</td>
                     <td>$01.50</td>
                     <td>1</td>
                 </tr>
 
                 <!-- row -->
-                <tr>
+                <tr id="product-row">
                     <td>Sketchbook</td>
                     <td>$15.00</td>
                     <td>3</td>
